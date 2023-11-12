@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notizbuch von Lukas</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+    <link href="./fonts/Roboto-Italic.ttf" rel="stylesheet" />
+  </head>
+  <body onload="render()">
+    <section class="header">
+      <div class="header-left">
+        <img src="./img/head-img.png" alt="notice_menu" class="head-icon" />
+        <h2>Notizen</h2>
+      </div>
+    </section>
+
+    <section class="menu-content">
+      <div class="menu">
+        <div class="menu-list">
+          <a class="menu-item-notice-active" href="./index.html">
+            <img src="./img/notice_menu.png" alt="notice" class="menu-img" />
+            <span class="menu-text">Notizen</span>
+          </a>
+          <a class="menu-item" href="./bin.html">
+            <img src="./img/bin_menu.png" alt="bin" class="menu-img" />
+            <span class="menu-text">Papierkorb</span>
+          </a>
+        </div>
+      </div>
+      <!-- menu -->
+
+      <div class="main-content">
+      <div class="content" id="contentHead"></div>
+      <div id="contentCards" class="contentCards"></div>
+      </div>
+      </div>
+      <!-- content -->
+    </section>
+  </body>
+</html>
